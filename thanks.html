@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cảm ơn bạn đã đăng ký!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="thanks-body">
+    <div class="container thanks-container">
+        <!-- Progress Bar -->
+        <div class="progress-bar-wrapper">
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: 85%;"></div>
+            </div>
+        </div>
+
+        <h1 class="urgent-title">CÒN 1 BƯỚC NỮA...</h1>
+        <p class="thanks-subtitle">Vào Nhóm Kín Để Nhận Thông Tin Và Cách Thức Học Kèm Theo Tài Liệu</p>
+
+        <div class="zalo-cta-wrapper">
+            <!-- Left Arrow SVG -->
+            <svg class="arrow arrow-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+            
+            <a href="https://zalo.me/g/lemlsd461" target="_blank" class="btn-zalo" id="zaloLinkBtn">
+                <span class="btn-zalo-title">BẤM VÀO ĐÂY ĐỂ VÀO NHÓM KÍN NGAY</span>
+                <span class="btn-zalo-desc">không vào được thì copy link bên dưới gửi vào Zalo và bấm tham gia nhé</span>
+            </a>
+            
+            <!-- Right Arrow SVG -->
+            <svg class="arrow arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </div>
+
+        <div class="link-text-wrapper">
+            <h3>Link nhóm ZALO</h3>
+            <a href="https://zalo.me/g/lemlsd461" target="_blank" class="raw-link">https://zalo.me/g/lemlsd461</a>
+            <p class="link-hint">không vào được thì copy link gửi vào Zalo bạn nhé</p>
+        </div>
+
+        <div class="warning-box">
+            <p>🔔 <strong>Nếu bạn không vào nhóm kín,</strong> chúng tôi không thể gửi link vào lớp học online cho bạn được. Vì vậy hãy vào nhóm ngay trước khi nhóm đóng lại trong:</p>
+        </div>
+
+        <!-- Countdown Timer -->
+        <div class="countdown" id="countdown">
+            <div class="time-box"><span id="min">09</span></div>
+            <span class="colon">:</span>
+            <div class="time-box"><span id="sec">59</span></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
